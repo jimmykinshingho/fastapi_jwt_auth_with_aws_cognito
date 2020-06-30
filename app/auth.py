@@ -25,4 +25,4 @@ async def get_current_user(
     try:
         return credentials.claims["username"]
     except KeyError:
-        HTTPException(status_code=HTTP_403_FORBIDDEN, detail="Username missing")
+        raise HTTPException(status_code=HTTP_403_FORBIDDEN, detail="Username missing")

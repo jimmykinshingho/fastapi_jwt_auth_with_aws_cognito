@@ -14,7 +14,7 @@ python-dotenv = "^0.10.3"
 uvicorn = "^0.8.6"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^18.3-alpha.4",allows-prereleases = true}
+black = {version = "^18.3-alpha.4",allow-prereleases = true}
 pre-commit = "^1.17"
 flake8 = "^3.7"
 
